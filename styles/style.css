@@ -59,7 +59,7 @@ header {
 }
 
 #hero-image {
-    width: 600px;
+    max-width: 600px;
     height: auto;
     margin-left: 50px;
     border-radius: 0 100px 0 100px;
@@ -77,3 +77,69 @@ header {
 .cta-button:hover {
     cursor: pointer;
 }
+
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+.team-figures {
+    display: flex;
+    width: 60vw;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.team-figures figure {
+    width: 150px;
+    height: 250px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.team-figures figure img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: #3882f6 solid 2px;
+    border-radius: 0px 30px 0px 30px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-text{
+    width: 60vw;
+    text-align: justify;
+}
+
+.quote h2 {
+    font-weight: 300;
+    font-size: 36px;
+    margin-top: 200px;
+    text-align: justify;
+}
+
+.quote h3 {
+    font-size: 30px;
+    margin-top: 15px;
+    text-align: end;
+    margin-bottom: 200px;
+}
+
