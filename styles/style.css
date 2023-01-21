@@ -64,8 +64,14 @@ header {
     margin-bottom: 50px;
 }
 
+.hero-image{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #hero-image {
-    max-width: 600px;
+    max-width: 100%;
     height: auto;
     margin-left: 50px;
     border-radius: 0 100px 0 100px;
@@ -169,18 +175,20 @@ header {
 
 .cta-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     width: 60vw;
     background-color: #3882f6;
     margin-top: 100px;
     margin-bottom: 100px;
     border-radius: 10px;
+    align-content: center;
 }
 
 .cta-text {
     color: #f9faf8;
-    padding: 50px 150px 50px 100px;
+    padding: 50px 150px 50px 0px;
 }
 
 .cta-text h1 {
@@ -193,7 +201,6 @@ header {
 }
 
 .cta-button2 {
-    margin: 50px 150px 50px 100px;
     background-color: #3882f6;
     color: #f9faf8;
     border: solid #f9faf8 2px;
