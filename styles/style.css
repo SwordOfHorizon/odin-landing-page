@@ -47,7 +47,10 @@ header {
     justify-content:space-between;
     width: 60vw;
     margin-bottom: 100px;
-    align-items: flex-start;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 50px;
+    
 }
 
 .hero-text h1 {
@@ -71,9 +74,9 @@ header {
 }
 
 #hero-image {
-    max-width: 100%;
+    width: 100%;
+    min-width: 300px;
     height: auto;
-    margin-left: 50px;
     border-radius: 0 100px 0 100px;
 }
 
